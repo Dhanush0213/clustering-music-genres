@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from sklearn import cluster
 
-data = pd.read_csv(r"C:\Users\Dhanu\Downloads\Clustering Music Genres\Spotify-2000.csv")
+data = pd.read_csv("Spotify-2000.csv")
 print(data.head())
 
 
